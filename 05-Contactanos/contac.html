@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>yokeissa.com</title>
+    
+<!-- LIB -->
+        <!-- Icono-yokeissa -->
+        <link rel=icon href="../ico/yokeissa.ico"> 
+        <!-- Estilo-yokeissa-menu -->
+        <link rel="stylesheet" href="../css/menutotal.css">
+        <!-- Tipo de Fuente -->
+        <link rel="stylesheet" href="../css/Orbitron-Medium.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <style type = "text/css">
+            a:link, a:visited, a:active{
+            color:#ffffff;
+            text-decoration:none;
+            }
+        </style>   
+		
+<!-- LIB -->
+		<link rel="stylesheet" href="../css/contact.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		
+		
+    </head>
+    <body>
+    <!-- Header -->
+	<header id="header" class="transparent-nav">            
+            <div class="container">
+
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn ml-auto">
+                        <i class="fas fa-bars"></i>
+                    </label>
+
+                    <div class="navbar-header">
+                        <!-- Logo -->
+                        <div class="navbar-brand">
+                        <a class="logo">
+                            <img src="../ico/yokeissa.ico"  style="width:73px">
+                        </a>
+                        </div>
+                        <!-- /Logo -->
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+                        <ul>
+                            <li class="nav-item active">
+                                <a class="active" href="../01-Inicio/principal.html">
+                                    <img src="../ico/inicio.ico"              style="width:50px">INICIO
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-right" href="../02-Nosotros/misionvision.html">
+                                    <img src="../ico/nosotross.ico"           style="width:50px">NOSOTROS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                                    <img src="../ico/libros_oficiales.ico"    style="width:50px">CURSOS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-right" href="../04-Codigo/menucodigo.html">
+                                    <img src="../ico/code.ico"                style="width:50px">CODIGOS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-right" href="../05-Contactanos/contac.php">
+                                    <img src="../ico/telefono.ico"            style="width:50px">CONTACTANOS
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="navbar-right" href="../06-Login/loginy.html">
+                                    <img src="../ico/logins.ico"              style="width:50px">LOGIN
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+    <!-- /Header -->
+		<br><br><br><br>
+			<div class="contenedor">
+				<div class="wrapper">
+					<a><img src="../ico/yokeissa.ico" alt=""></a>
+					<div class="title">
+						Yokeissa
+					</div>
+					<div class="place">
+						Guárico, Venezuela
+					</div>
+				</div>
+				<div class="contenten">
+					<p>
+						User Interface Designer and <br>front-end developer
+					</p>
+					<div class="buttons">
+						<div class="btn">
+							<button>Message</button>
+						</div>
+						<div class="btn">
+							<button>Following</button>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<div class="icons">
+					<li><a title="facebook"     href="#"><span class="fab fa-facebook-f"></span></a></li>
+					<li><a title="twitter"      href="#"><span class="fab fa-twitter"></span></a></li>
+					<li><a title="instagram"    href="@yokeissa"><span class="fab fa-instagram"></span></a></li>
+				</div>
+			</div>
+			<script>
+				const img = document.querySelector("img");
+				const icons = document.querySelector(".icons");
+				img.onclick = function(){
+					this.classList.toggle("active");
+					icons.classList.toggle("active");
+				}
+			</script>
+	</body>
+</html>

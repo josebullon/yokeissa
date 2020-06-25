@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel
+{
+    height: 100vh;
+    padding-bottom: 100px;
+    background: #d2691e;
+}
+.post-card
+{
+    position: absolute;
+    height: 400px;
+    width : 300px;
+    background: #fff;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1),
+    inset 0px 0px 10px rgba(0,0,0,0.1);
+    
+}
+.post-card:before
+{
+    content: '1';
+    height: 50px;
+    width : 50px;
+    background: #66BB6A;
+    position: absolute;
+    border-radius: 50%;
+    top : -15px;
+    left : -15px;
+    color : #fff;
+    font-size: 20pt;
+    padding: 10px 0 0 0;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2),
+    inset 0px 0px 2px rgba(0,0,0,0.2);
+}
+.img-container
+{
+    height: 180px;
+    width: 100%;
+    background: url(../image/yoke006.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.date-meta
+{
+    height: 50px;
+    width : 50px;
+    border: 1px solid #FF5722;
+    position: relative;
+    right: -230px;
+    margin: -25px 0 0 0;
+    text-align: center;
+    border-radius: 3px;
+}    
+.date-meta .date
+{
+    height: 25px;
+    width: 100%;
+    background: #FF5722;
+    color : #fff;
+    padding-top: 3px;
+}
+.month
+{
+    margin: 3px;
+}
+.content
+{
+    height: 130px;
+    width : 100%;
+    margin: 2px 0 0 0;
+    padding: 5px 7px 5px 10px;
+}
+.content .title
+{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+}
+.content .content-des
+{
+    font-size: 15px;
+    margin: 5px auto auto auto;
+    width: 95%;
+    text-align: center;
+}
+.bottom-meta
+{
+    height: calc(100% - 360px);
+    width: 95%;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    margin: 20px auto;
+}
+.tags
+{
+    float: left;
+    margin: 8px 5px 0 5px;
+    height: 26px;
+    width : 55px;
+    background: #eee;
+    border-radius: 15px;
+    padding: 5px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+}
+.more
+{
+    float: right;
+    margin: 8px 5px 0 5px;
+    height: 26px;
+    width : 55px;
+    background: #00BCD4;
+    border-radius: 5px;
+    padding: 5px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+    color : #fff;
+}
+.admin
+{
+    height: 30px;
+    width : 100px;
+    background: #00BCD4;
+    position: relative;
+    bottom: calc(30px - 180px);
+    border-radius : 0 5px 0 0;
+    text-align : center;
+    padding: 6px 0 0 0;
+    color : #fff;
+}
+.copy
+{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom : 8px;
+}
+
+
+
+
+
+
+/* Reponsive */
+.w-100{
+    height: 100vh;
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav.ml-auto{
+        background: rgb(0, 0, 0,0.5);
+    }
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #ffffff;
+    }
+}
